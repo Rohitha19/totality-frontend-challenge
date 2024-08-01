@@ -40,6 +40,8 @@ const App = () => {
       <Header/>
       <img className='main-image' alt="main-image" src="https://qph.cf2.quoracdn.net/main-qimg-cc317351f3b44f671b6690b1264106ec"/>
       <Filter filters={filters} onFilterChange={handleFilterChange} />
+      <h1>Explore exclusive spaces</h1>
+      <p>Find your perfect property for rent! Whether you're looking for a cozy cabin in the woods, a luxurious villa with a pool, or anythingin between, totality rentals has you. Start your search today!  </p>
       <div className="property-list">
         {filteredProperties.map(property => (
           <PropertyCard key={property.id} property={property} onAddToCart={handleAddToCart} />
