@@ -1,0 +1,50 @@
+.property-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .location{
+    display: flex;
+    align-items:center;
+  }
+
+  .property-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .property-card h3 {
+    margin: 10px 0;
+  }
+
+  .details{
+    text-align: left;
+  }
+
+  .description{
+    padding-bottom:6px;
+  }
+  
+  .property-card p {
+    margin: 5px 0;
+  }
+  
+  .property-card button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .property-card button:hover {
+    background-color: #45a049;
+  }

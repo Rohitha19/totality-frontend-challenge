@@ -1,0 +1,38 @@
+.filter {
+    margin: 20px auto;
+    width: 1000px;
+    text-align: center;
+    
+  }
+
+  .filter-groups{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    
+  }
+
+  .filter-icon{
+    padding-left:10px;
+  }
+  
+  .filter-group {
+    margin: 15px;
+  }
+  
+  
+  .filter-group input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .filter-group input:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+
+  

@@ -1,0 +1,61 @@
+.App-cont {
+    text-align: center;
+    background-color: #d5e2fb;
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .main-image{
+    height:80vh;
+    width:80vw;
+    border-radius: 20px;
+    align-self: center;
+  }
+
+  .property-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .property-card {
+    
+    background-color: #f0fff0;
+    padding: 10px;
+    margin: 15px;
+    width: 300px;
+  }
+  
+  .property-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .property-card button {
+    margin-top: 10px;
+    padding: 5px 10px;
+  }
+  
+  .cart {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .checkout-form {
+    margin-top: 20px;
+  }
+  
+  .confirmation {
+    padding: 20px;
+    border: 1px solid green;
+    background-color: #f0fff0;
+  }

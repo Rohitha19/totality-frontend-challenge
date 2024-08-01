@@ -1,0 +1,22 @@
+
+.home-image{
+    margin-left:20px;
+    margin-right:20px;
+    height:50vh;
+    width:50vw;
+    border-radius: 40px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width:60vw;
+    align-self: center;
+    margin:20px;
+    background-color: white;
+    border-radius: 40px;
+    padding:10px;
+}
+.cart-icon{
+    height:20px;
+}
